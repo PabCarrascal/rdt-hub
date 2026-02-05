@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reconquista Dev Team | Hub</title>
+    <link rel="icon" type="image/jpeg" href="logo-icon.jpeg">
+    <meta name="description" content="Hub de aplicaciones y herramientas de Reconquista Dev Team.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        rdt: {
+                            bg: '#f9fafb', /* Gray 50 - Fondo claro */
+                            card: '#ffffff', /* White - Tarjetas */
+                            text: '#111827', /* Gray 900 - Texto principal */
+                            muted: '#6b7280', /* Gray 500 - Texto secundario */
+                            green: '#10b981', /* Emerald 500 - Acento */
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'soft_hover': '0 20px 25px -5px rgb(0 0 0 / 0.05), 0 8px 10px -6px rgb(0 0 0 / 0.01)',
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        
+        /* Las tarjetas ahora son blancas con una sombra sutil */
+        .light-card {
+            background-color: white;
+            border: 1px solid #e5e7eb; /* Gray 200 */
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05);
+        }
+    </style>
+</head>
+<body class="bg-rdt-bg text-rdt-text min-h-screen flex flex-col justify-between selection:bg-rdt-green selection:text-white">
+
+    <nav class="w-full py-6 px-4 md:px-12 flex justify-center md:justify-start max-w-7xl mx-auto">
+        <div class="flex items-center">
+            <img src="logo-full.jpeg" alt="RDT Logo" class="h-10 md:h-12 hover:opacity-90 transition-opacity">
+        </div>
+        </nav>
+
+    <main class="flex-grow flex flex-col items-center justify-center px-4 py-12 relative">
+        
+        <div class="text-center mb-16 max-w-2xl mx-auto">
+            <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 text-rdt-text">
+                Simplicidad y <br/><span class="text-rdt-green">Control.</span>
+            </h1>
+            <p class="text-lg text-rdt-muted font-normal">
+                Hub de acceso a las herramientas de desarrollo del equipo. Rápido, directo y sin complicaciones.
+            </p>
+        </div>
+
+	<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-7xl">
+            
+            <a href="https://ytdl.rdtserver.com" target="_blank" class="group relative light-card p-8 rounded-2xl transition-all duration-300 hover:-translate-y-1 hover:shadow-soft_hover hover:border-rdt-green">
+                <div class="absolute top-5 right-5 text-gray-400 group-hover:text-rdt-green transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                </div>
+                <div class="w-16 h-16 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-500 group-hover:bg-red-600 group-hover:text-white transition-all duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/>
+                    </svg>
+                </div>
+                <h3 class="text-2xl font-bold mb-2 text-rdt-text">YouTube DL</h3>
+                <p class="text-rdt-muted text-sm">Descarga video y audio de alta calidad directamente. Sin publicidad.</p>
+            </a>
+
+            <a href="https://idonthavetiktok.rdtserver.com" target="_blank" class="group relative light-card p-8 rounded-2xl transition-all duration-300 hover:-translate-y-1 hover:shadow-soft_hover hover:border-pink-500">
+                <div class="absolute top-5 right-5 text-gray-400 group-hover:text-pink-500 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                </div>
+                <div class="w-16 h-16 bg-pink-50 rounded-xl flex items-center justify-center mb-6 text-pink-500 group-hover:bg-pink-600 group-hover:text-white transition-all duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/>
+                    </svg>
+                </div>
+                <h3 class="text-2xl font-bold mb-2 text-rdt-text">NoTiktok</h3>
+                <p class="text-rdt-muted text-sm">Visualiza enlaces de TikTok sin cuenta. Privacidad total.</p>
+            </a>
+	
+	    <a href="https://ridetogondor.rdtserver.com" target="_blank" class="group relative light-card p-8 rounded-2xl transition-all duration-300 hover:-translate-y-1 hover:shadow-soft_hover hover:border-amber-500">
+                <div class="absolute top-5 right-5 text-gray-400 group-hover:text-amber-500 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                </div>
+                <div class="w-16 h-16 bg-amber-50 rounded-xl flex items-center justify-center mb-6 text-amber-500 group-hover:bg-amber-500 group-hover:text-white transition-all duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="7" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v6l5-3-5-3z" fill="currentColor"/> </svg>
+                </div>
+                <h3 class="text-2xl font-bold mb-2 text-rdt-text">Ride To Gondor</h3>
+                <p class="text-rdt-muted text-sm">Visualización Non-Stop de la trilogía del Señor de los Anillos. Una experiencia para gobernarlos a todos.</p>
+            </a>
+
+        </div>
+
+    </main>
+
+    <footer class="w-full py-8 text-center text-rdt-muted text-sm">
+        <div class="flex justify-center gap-4 mb-4 opacity-70">
+            <img src="logo-icon.jpeg" alt="Icon" class="h-8 w-8">
+        </div>
+        <p>&copy; 2026 Reconquista Dev Team.</p>
+    </footer>
+
+</body>
+</html>

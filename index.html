@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reconquista Dev Team | Hub</title>
-    <link rel="icon" type="image/jpeg" href="logo-icon.jpeg">
     <meta name="description" content="Hub de aplicaciones y herramientas de Reconquista Dev Team.">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -13,11 +12,11 @@
                 extend: {
                     colors: {
                         rdt: {
-                            bg: '#f9fafb', /* Gray 50 - Fondo claro */
-                            card: '#ffffff', /* White - Tarjetas */
-                            text: '#111827', /* Gray 900 - Texto principal */
-                            muted: '#6b7280', /* Gray 500 - Texto secundario */
-                            green: '#10b981', /* Emerald 500 - Acento */
+                            bg: '#f9fafb', /* Gray 50 */
+                            card: '#ffffff', /* White */
+                            text: '#111827', /* Gray 900 */
+                            muted: '#6b7280', /* Gray 500 */
+                            green: '#10b981', /* Emerald 500 */
                         }
                     },
                     fontFamily: {
@@ -31,13 +30,13 @@
         }
     </script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/jpeg" href="logo-icon.jpeg">
     <style>
         body { font-family: 'Inter', sans-serif; }
         
-        /* Las tarjetas ahora son blancas con una sombra sutil */
         .light-card {
             background-color: white;
-            border: 1px solid #e5e7eb; /* Gray 200 */
+            border: 1px solid #e5e7eb;
             box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05);
         }
     </style>
@@ -48,7 +47,7 @@
         <div class="flex items-center">
             <img src="logo-full.jpeg" alt="RDT Logo" class="h-10 md:h-12 hover:opacity-90 transition-opacity">
         </div>
-        </nav>
+    </nav>
 
     <main class="flex-grow flex flex-col items-center justify-center px-4 py-12 relative">
         
@@ -61,7 +60,7 @@
             </p>
         </div>
 
-	<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-7xl">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-5xl">
             
             <a href="https://ytdl.rdtserver.com" target="_blank" class="group relative light-card p-8 rounded-2xl transition-all duration-300 hover:-translate-y-1 hover:shadow-soft_hover hover:border-rdt-green">
                 <div class="absolute top-5 right-5 text-gray-400 group-hover:text-rdt-green transition-colors">
@@ -92,8 +91,8 @@
                 <h3 class="text-2xl font-bold mb-2 text-rdt-text">NoTiktok</h3>
                 <p class="text-rdt-muted text-sm">Visualiza enlaces de TikTok sin cuenta. Privacidad total.</p>
             </a>
-	
-	    <a href="https://ridetogondor.rdtserver.com" target="_blank" class="group relative light-card p-8 rounded-2xl transition-all duration-300 hover:-translate-y-1 hover:shadow-soft_hover hover:border-amber-500">
+
+            <a href="https://ridetogondor.rdtserver.com" target="_blank" class="group relative light-card p-8 rounded-2xl transition-all duration-300 hover:-translate-y-1 hover:shadow-soft_hover hover:border-amber-500">
                 <div class="absolute top-5 right-5 text-gray-400 group-hover:text-amber-500 transition-colors">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
@@ -102,10 +101,26 @@
                 <div class="w-16 h-16 bg-amber-50 rounded-xl flex items-center justify-center mb-6 text-amber-500 group-hover:bg-amber-500 group-hover:text-white transition-all duration-300">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <circle cx="12" cy="12" r="7" />
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v6l5-3-5-3z" fill="currentColor"/> </svg>
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v6l5-3-5-3z" fill="currentColor"/>
+                    </svg>
                 </div>
                 <h3 class="text-2xl font-bold mb-2 text-rdt-text">Ride To Gondor</h3>
                 <p class="text-rdt-muted text-sm">Visualización Non-Stop de la trilogía del Señor de los Anillos. Una experiencia para gobernarlos a todos.</p>
+            </a>
+
+            <a href="https://lumos.rdtserver.com" target="_blank" class="group relative light-card p-8 rounded-2xl transition-all duration-300 hover:-translate-y-1 hover:shadow-soft_hover hover:border-purple-600">
+                <div class="absolute top-5 right-5 text-gray-400 group-hover:text-purple-600 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                </div>
+                <div class="w-16 h-16 bg-purple-50 rounded-xl flex items-center justify-center mb-6 text-purple-600 group-hover:bg-purple-600 group-hover:text-white transition-all duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    </svg>
+                </div>
+                <h3 class="text-2xl font-bold mb-2 text-rdt-text">Lumos</h3>
+                <p class="text-rdt-muted text-sm">Maratón mágico de Harry Potter non-stop. Juro solemnemente que mis intenciones no son buenas.</p>
             </a>
 
         </div>
